@@ -1,0 +1,67 @@
+.side-bar{
+    margin-top: -10px;
+    height:100%;
+    width:350px;
+    position:fixed;
+    z-index:1;
+    left: 0;
+    background-color:rgb(234, 242, 243);
+    overflow-x: hidden;
+    padding-top: 30px;
+    overflow: auto;
+    display:block;
+    
+}
+
+.self-image{
+    
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:40px;
+}
+
+#name{
+    text-align: center;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.primary-menu ul li a {
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    font-size:20px;
+    color:black;
+}
+.primary-menu ul li a:hover{
+    color:white;
+}
+
+.primary-menu li{
+    list-style-type: none;
+    margin:15px 100px;
+}
+
+p{
+    font-family: 'Francois One', sans-serif;
+}
+#github-wrapper{
+    left:40%;
+}
+#linkedin-wrapper{
+    left:40%;
+}
+.email-wrapper{
+    font-size:18px;
+    margin:10px 110px;
+    font-family: 'Francois One', sans-serif;
+}
+.mobile-wrapper{
+    font-size:18px;
+    margin:0 110px;
+    font-family: 'Francois One', sans-serif;
+}

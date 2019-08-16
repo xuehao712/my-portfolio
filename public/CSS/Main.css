@@ -57,11 +57,13 @@ p{
 }
 .email-wrapper{
     font-size:18px;
-    margin:10px 110px;
+    margin-top:10px ;
     font-family: 'Francois One', sans-serif;
+    text-align: center;
 }
 .mobile-wrapper{
     font-size:18px;
-    margin:0 110px;
+    margin-top:10px;
+    text-align: center;
     font-family: 'Francois One', sans-serif;
 }

@@ -6,7 +6,7 @@ export default class Introduction extends Component{
             <div class="introduction-container">
                 <p >About Me</p>
                 <div class="introduction-wrapper">
-                    <p>....</p>
+
                 </div>
             </div>
         )

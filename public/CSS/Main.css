@@ -43,7 +43,7 @@
 
 .primary-menu li{
     list-style-type: none;
-    margin:15px 100px;
+    margin:15px 90px;
 }
 
 p{
@@ -51,9 +51,13 @@ p{
 }
 #github-wrapper{
     left:40%;
+    color:black;
+    
 }
 #linkedin-wrapper{
     left:40%;
+    color:black;
+    margin-top:15px;
 }
 .email-wrapper{
     font-size:18px;
@@ -67,3 +71,5 @@ p{
     text-align: center;
     font-family: 'Francois One', sans-serif;
 }
+
+

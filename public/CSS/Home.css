@@ -39,3 +39,34 @@
     left:35%;
     z-index:20;
  }
+
+ .hide-sidebar{
+     display:inline-block;
+     cursor:pointer;
+     z-index:20;
+     
+ }
+
+ .hide-sidebar1,
+ .hide-sidebar2,
+ .hide-sidebar3{
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.5s;
+ }
+
+ .change-Button .hide-sidebar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+ }
+
+ .change-Button .hide-sidebar2{
+     opacity:0;
+ }
+
+ .change-Button .hide-sidebar3{
+     -webkit-transform: rotate(45deg) translate(-8px,-8px);
+    transform:rotate(45deg) translate(-8px,-8px);
+ }

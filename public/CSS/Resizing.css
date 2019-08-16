@@ -1,0 +1,4 @@
+@media screen and (max-width: 750px)  {
+    .side-bar{display:none};
+    #toggleButton{display: block};
+  } 

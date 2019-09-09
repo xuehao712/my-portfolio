@@ -1,24 +1,16 @@
 import React,{Component} from "react";
 
 export default class Introduction extends Component{
-      constructor(props){
-      super(props);
-      this.changeButton=this.changeButton.bind();
-  }
-  changeButton(e){
-    e.classList.toggle("change-Button");
-}
+
     render(){
         return(
-            <div class="introduction-container">
-                <p >About Me</p>
+            <div class="introduction-container section" id="jump-introduction">
+                <h1>ABOUT ME</h1>
                 <div class="introduction-wrapper">
-                <div class="hide-sidebar" onClick={this.changeButton}>
-                    <div class="hide-sidebar1"></div>
-                    <div class="hide-sidebar2"></div>
-                    <div class="hide-sidebar3"></div>
+                    <p>My name is Xuehao Zheng, i am a Applied Mathmetics major from CUNY City College of New York.</p>
+                    <p>I taught myself programming during my free time by reading books and practicing programming in online cource.</p>
                 </div>
-                </div>
+
             </div>
         )
     }

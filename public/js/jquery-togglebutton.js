@@ -1,5 +1,8 @@
-$(document).ready(function(){
-    $("#toggleButton").click(function(){
-        $(".side-bar").toggle();
-    });
-});
+
+// $(document).ready(function(){
+//     $("#togglebutton-sidebar").click(function(){
+//         $(this).toggleClass("change-button");
+//         $(".main-container").toggle();
+       
+//     });
+// });

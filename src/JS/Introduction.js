@@ -8,7 +8,7 @@ export default class Introduction extends Component{
                 <h1>ABOUT ME</h1>
                 <div class="introduction-wrapper">
                     <p>My name is Xuehao Zheng, i am a Applied Mathmetics major from CUNY City College of New York.</p>
-                    <p>I taught myself programming during my free time by reading books and practicing programming in online cource.</p>
+                    <p>I taught myself programming during my free time by reading books and practicing programming in online courses.</p>
                 </div>
 
             </div>

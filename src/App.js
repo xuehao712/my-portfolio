@@ -3,8 +3,10 @@ import Main from "./JS/Main";
 import Home from "./JS/Home";
 import Expertise from "./JS/Expertise";
 
+
 import './App.css';
 import React, { Component } from 'react'
+
 
 
 export default class App extends Component{
@@ -14,9 +16,7 @@ export default class App extends Component{
                     <Main></Main> 
                     <Home></Home>
                     <Introduction></Introduction> 
-                    <Expertise></Expertise>  
-               
-                
+                    <Expertise></Expertise>       
             </div>
         )
     }

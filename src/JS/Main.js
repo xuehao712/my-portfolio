@@ -8,7 +8,7 @@ export default class Main extends Component{
             /* main wrapper*/
             <div class="main-container" >
                 <div class="side-bar">
-                    <img src="./Image/DSC04019.jpg"   alt="Myself" class="self-image" ></img> 
+                    <img src="./Image/selfie.jpg"   alt="Myself" class="self-image" ></img> 
                     <p id="name">Xuehao Zheng</p>
                     {/*contact info wrapper */}
                     <span class="contact-wrapper" >
@@ -44,6 +44,7 @@ export default class Main extends Component{
                     <div class="copyright-wrapper">
                         <p >Copyrights © 2019 All Rights Reserved by Xuehao Zheng.</p>
                     </div>
+                    
                 </div>
             </div>          
         )

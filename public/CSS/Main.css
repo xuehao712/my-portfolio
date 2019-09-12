@@ -271,92 +271,93 @@ h1{
     color:white;
     }
 
-.expertise-1{
-    margin-top:100px;
-    float:left;
-    width:30%;
-    height:220px;
-    background-color:rgb(247, 242, 242);
-    text-align:center;
-    margin-left:40px;
-    border-bottom:6px double;
-    border-bottom-color:rgb(131, 205, 235);
-    min-width:450px;
-    
-}
-    .expertise-1 .icon-1{
+    .expertise-1{
+        margin-top:100px;
+        float:left;
+        width:25vw;
+        height:220px;
+        background-color:rgb(247, 242, 242);
+        text-align:center;
+        margin-left:35px;
+        border-bottom:6px double;
+        border-bottom-color:rgb(131, 205, 235);
+        min-width:420px;
         
-        color:rgb(131, 205, 235);
-        margin-top:-60px;
     }
-
-.expertise-2{
-    margin-top:100px;
-    float:left;
-    width:30%;
-    height:220px;
-    background-color:rgb(247, 242, 242);
-    text-align:center;
-    margin-left:40px;
-    border-bottom:6px double;
-    border-bottom-color:rgb(241, 237, 100);
-    min-width:450px;
-}
-    .expertise-2 .icon-2{
-        
-        color:rgb(241, 237, 100);
-        margin-top:-60px;
-    }
-
-.expertise-3{
-    margin-top:100px;
-    float:left;
-    width:30%;
-    height:220px;
-    background-color:rgb(247, 242, 242);
-    text-align:center;
-    margin-left:40px;
-    border-bottom:6px double;
-    border-bottom-color:rgb(170, 216, 170);
-    min-width:450px;
-}
-    .expertise-3 .icon-3{
-        color:rgb(170, 216, 170);
-        margin-top:-60px;
-    }
-
-.expertise.container p{
-    color:rgb(53, 40, 40);
-}
-
-/* Resizing page when windows being shrinked ------------------------------------------------*/
-
-@media screen and (max-width: 800px)  {
-    
-    .main-container{
-        display: none;      
-    }
-    .hide-sidebar1,
-    .hide-sidebar2,
-    .hide-sidebar3{
-        display:block !important;
-    }
-    .home-container{
-        margin-left:-8px;
-        padding:0;
-        width:105%;
-    }
-   
-    .introduction-container{
-        margin-left:0px;
-    }
-
-    .expertise-container {
-        margin-left:0px;
-    }
-        .expertise-wrapper{
-            margin-left:10px;
-            margin-right:5%;
+        .expertise-1 .icon-1{
+            
+            color:rgb(131, 205, 235);
+            margin-top:-60px;
         }
+    
+    .expertise-2{
+        margin-top:100px;
+        float:left;
+        width:25vw;
+        height:220px;
+        background-color:rgb(247, 242, 242);
+        text-align:center;
+        margin-left:35px;
+        border-bottom:6px double;
+        border-bottom-color:rgb(241, 237, 100);
+        min-width:420px;
+    }
+        .expertise-2 .icon-2{
+            
+            color:rgb(241, 237, 100);
+            margin-top:-60px;
+        }
+    
+    .expertise-3{
+        margin-top:100px;
+        float:left;
+        width:25vw;
+        height:220px;
+        background-color:rgb(247, 242, 242);
+        text-align:center;
+        margin-left:35px;
+        border-bottom:6px double;
+        border-bottom-color:rgb(170, 216, 170);
+        min-width:420px;
+    }
+        .expertise-3 .icon-3{
+            color:rgb(170, 216, 170);
+            margin-top:-60px;
+        }
+    
+    .expertise.container p{
+        color:rgb(53, 40, 40);
+    }
+    
+    /* Resizing page when windows being shrinked ------------------------------------------------*/
+    
+    @media screen and (max-width: 800px)  {
         
-  } 
+        .main-container{
+            display: none;      
+        }
+        .hide-sidebar1,
+        .hide-sidebar2,
+        .hide-sidebar3{
+            display:block !important;
+        }
+        .home-container{
+            margin-left:-8px;
+            padding:0;
+            width:105%;
+        }
+       
+        .introduction-container{
+            margin-left:0px;
+        }
+    
+        .expertise-container {
+            margin-left:0px;
+        }
+            .expertise-wrapper{
+                margin-left:10px;
+                margin-right:5%;
+            }
+            
+      } 
+    
